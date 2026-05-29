@@ -7,7 +7,7 @@
 
 **Языки**: SQL (оконные функции, CTE), Python (pandas, numpy, scipy, matplotlib/plotly)
 
-**Визуализация**: Yandex DataLens, Excel
+**Визуализация**: Yandex DataLens, Excel, А/В тестирование
 
 **Базы данных**: PostgreSQL 
 
