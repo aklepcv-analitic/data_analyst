@@ -79,6 +79,8 @@
 `Python` `Pandas` `DataLens` `EDA` `Data Visualization`
 
 ### Dashboard
+
+![](docs/dash_agent_house.png)
 [Открыть дашборд в Yandex DataLens](https://datalens.yandex/tm8rgfsl0j9ed)
 
 ---
@@ -118,7 +120,7 @@
 `SQL` `Product Analytics` `DataLens` `Business Metrics` `Anomaly Detection`
 
 ### Dashboard
-
+![](docs/dash_servise_dost.png)
 [Открыть дашборд в Yandex DataLens](https://datalens.yandex/go5ytr673zqs0)
 
 ---
