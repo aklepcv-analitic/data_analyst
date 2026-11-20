@@ -278,28 +278,6 @@
   - на выходе — расширенный CSV (`data/vk_posts_analysis.csv`), готовая база
     для дашборда в Yandex DataLens или Excel.
 
-## Быстрый старт
-
-```bash
-cd vk-content-analytics
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-cp .env.example .env           # вписать VK_SERVICE_TOKEN и VK_GROUP_SCREEN
-
-python scripts/vk_wall_export.py       # выгрузка постов в data/
-python scripts/vk_posts_analysis.py    # отчёт в консоль + расширенный CSV
-```
-
-## Как получить сервисный токен VK
-
-1. [dev.vk.com](https://dev.vk.com) → «Создать приложение» (нужен аккаунт ВК).
-2. Тип приложения — **Standalone**; в настройках скопировать
-   **сервисный ключ доступа** (service token).
-3. Токен хранится только в `.env`, который исключён из репозитория через
-   `.gitignore`. Personal-токен не требуется: анализируется публичная стена.
-
 ## Метрики
 
 | Метрика | Формула | Зачем |
