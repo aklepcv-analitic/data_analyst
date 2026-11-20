@@ -1,0 +1,17 @@
+# Секреты
+.env
+
+# Данные выгрузки (конфиденциальны для заказчика)
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
